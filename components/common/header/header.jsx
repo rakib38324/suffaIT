@@ -22,20 +22,21 @@ export default function Header({ setOpen }) {
 
   const router = useRouter();
   const navigation = [
-    { label: "Home", url: "/" },
+    { label: "About us", url: "/about-us" },
+    { label: "Cases", url: "/about-us" },
     {
       label: "Services",
       url: "/services",
     },
     { label: "Solution", url: "/solution" },
-    { label: "About us", url: "/about-us" },
+    { label: "Clients", url: "/solution" },
     { label: "Blogs", url: "/blogs" },
     { label: "Career", url: "/career" },
   ];
 
   return (
     <div className=" bg-blue-950  w-full z-30 ">
-      <div className="relative container mx-auto flex items-center justify-between">
+      <div className=" container mx-auto flex items-center justify-between px-2">
         <Link href="/">
           <Image className="size-24" src={logo} alt="Logo" />
         </Link>
@@ -67,7 +68,7 @@ export default function Header({ setOpen }) {
         </Link>
 
         <button className="lg:hidden" onClick={() => setOpen(true)}>
-          <FaBars />
+          <FaBars className="text-white " />
         </button>
       </div>
 
