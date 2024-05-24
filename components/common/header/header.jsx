@@ -74,7 +74,7 @@ export default function Header({ setOpen }) {
 
       {drawer && drawerName === "Services" && (
         <div
-          className="absolute z-10 h-[200px] w-full bg-blue-200"
+          className="absolute z-50 h-[200px] w-full bg-blue-200"
           onMouseEnter={() => handleMouseEnter("Services")}
           onMouseLeave={() => handleMouseLeave("Services")}
         >
@@ -110,7 +110,7 @@ export default function Header({ setOpen }) {
 
       {drawer && drawerName === "Solution" && (
         <div
-          className="absolute z-10 h-[200px] w-full bg-blue-200"
+          className="absolute z-50 h-[200px] w-full bg-blue-200"
           onMouseEnter={() => handleMouseEnter("Solution")}
           onMouseLeave={() => handleMouseLeave("Solution")}
         >

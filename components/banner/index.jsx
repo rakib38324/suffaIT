@@ -16,9 +16,9 @@ const Banner = () => {
           type="video/mp4"
         />
       </video>
-      <div className="relative z-10  h-full text-white  bg-black opacity-90 ">
+      <div className="relative z-10  h-full text-white  bg-black opacity-85 p-2">
         <div className="max-w-screen-xl mx-auto ">
-          <p className="lg:w-2/3 pt-10 lg:pt-20 font-bold text-3xl md:text-6xl lg:text-7xl ">
+          <p className="lg:w-2/3 pt-10 lg:pt-20 font-bold text-3xl md:text-6xl lg:text-6xl ">
             Empower your business with
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 via-red-600 to-pink-700">
               {" "}
@@ -30,8 +30,8 @@ const Banner = () => {
             </span>
           </p>
 
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
-            <div className="bg-gray-900  p-10 rounded-2xl my-1">
+          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
+            <div className="bg-gray-900  p-5 rounded-2xl my-1">
               <p className="text-2xl font-bold">
                 Team <br />
                 Augmentation
@@ -47,7 +47,7 @@ const Banner = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-900  p-10 rounded-2xl my-1">
+            <div className="bg-gray-900  p-5 rounded-2xl my-1">
               <p className="text-2xl font-bold">
                 Custom software <br />
                 development
@@ -63,7 +63,7 @@ const Banner = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-900  p-10 rounded-2xl my-1">
+            <div className="bg-gray-900  p-5 rounded-2xl my-1">
               <p className="text-2xl font-bold">
                 AI <br />
                 development
