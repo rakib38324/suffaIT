@@ -95,12 +95,12 @@ const Services = () => {
                 ))}
               </div>
 
-              <button className="hidden absolute bottom-0 left-24 transform -translate-x-1/2 translate-y-full group-hover:-translate-y-5 transition-all duration-500 bg-black text-white px-4 py-2 rounded-lg lg:flex gap-2 text-sm hover:bg-slate-600">
+              <button className="hidden absolute bottom-0 left-24 transform -translate-x-1/2 translate-y-full group-hover:-translate-y-5 transition-all duration-500 bg-blue-900 text-white px-4 py-2 rounded-lg lg:flex gap-2 text-sm hover:bg-blue-600">
                 {`let's chat`}
                 <FaArrowRight className="my-auto" />
               </button>
 
-              <button className="lg:hidden mt-5 bg-black text-white px-4 py-2 rounded-lg flex gap-2 text-sm hover:bg-slate-600">
+              <button className="lg:hidden mt-5 bg-blue-900 text-white px-4 py-2 rounded-lg flex gap-2 text-sm hover:bg-blue-600">
                 {`let's chat`}
                 <FaArrowRight className="my-auto" />
               </button>
