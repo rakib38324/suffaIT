@@ -54,26 +54,33 @@ const Support = () => {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto bg-slate-100 p-2">
-      <h1 className="text-5xl font-bold text-center pt-20">
-        How we can help you
-      </h1>
-      <p className="text-center my-5">
-        Using powerful, industry-specific software solutions, our team can help
-        you achieve your business goals.
-      </p>
+    <section className="bg-slate-100">
+      <div className="max-w-screen-xl mx-auto  p-2">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center pt-20">
+          How we can help you
+        </h1>
+        <p className="md:w-2/3 mx-auto text-center my-5">
+          Using powerful, industry-specific software solutions, our team can
+          help you achieve your business goals.
+        </p>
 
-      <div className="my-20">
-        <div className="snap-x overflow-x-scroll flex gap-2 hide-scrollbar">
-          {data?.map((item, i) => (
-            <div key={i} className="w-48 bg-gradient-to-b from-slate-50 via-slate-50 to-slate-100 p-8 rounded-3xl snap-center flex-shrink-0">
-              <Image className="mx-auto" src={item?.image} alt="logo" />
-              <p className="text-center text-xs pt-5 font-bold">{item?.title}</p>
-            </div>
-          ))}
+        <div className="my-20">
+          <div className="snap-x overflow-x-scroll flex gap-2 hide-scrollbar">
+            {data?.map((item, i) => (
+              <div
+                key={i}
+                className="w-44 bg-gradient-to-b from-slate-50 via-slate-50 to-slate-100 p-8 rounded-3xl snap-center flex-shrink-0"
+              >
+                <Image className="mx-auto" src={item?.image} alt="logo" />
+                <p className="text-center text-xs pt-5 font-bold">
+                  {item?.title}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
